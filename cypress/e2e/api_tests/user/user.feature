@@ -24,7 +24,6 @@ Feature: Manage users
         Then response contain this data user
         And status code is 200
 
-
     Scenario: Get user unsuccessful
         Given the id from a unregistered user
         When send this id

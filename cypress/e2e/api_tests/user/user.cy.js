@@ -1,5 +1,9 @@
 
 context('Manage users', () => {
+  
+  before(() => {
+    cy.initOldUser()
+  });
  
   it('Get users', () => {
     cy.request('GET','https://serverest.dev/usuarios').then((response) => {

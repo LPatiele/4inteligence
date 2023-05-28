@@ -22,9 +22,9 @@ No repositório do projeto execute o comando a seguir para instalar as dependenc
 `npm run cy:open`
 Através do dashboard do cypress é possível executar os testes de API e UI separadamente e acompanhar detalhes das execuções.
 * Para executar os cenário de testes de API e UI através de linha de comando no no navegados chrome execute:
-`npm run cy:run:chrome
+`npm run cy:run:chrome`
 * Para executar os cenário de testes de API e UI através de linha de comando no no navegados firefox execute:
-`npm run cy:run:firefox
+`npm run cy:run:firefox`
 * Para executar o teste de pico use o comando:
 `npm run k6:peak`
 * Para executar o teste de carga use o comando:
